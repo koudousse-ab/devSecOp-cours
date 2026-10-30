@@ -1,0 +1,322 @@
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="NovaTech accompagne les entreprises dans leur transformation numérique grâce à des solutions informatiques modernes.">
+
+    <title>NovaTech | Solutions informatiques</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#accueil" class="logo">
+                Nova<span>Tech</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Ouvrir le menu"
+                aria-expanded="false"
+                aria-controls="nav-links">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact" class="nav-contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Section principale -->
+        <section class="hero" id="accueil">
+            <div class="container hero-content">
+
+                <div class="hero-text">
+                    <p class="eyebrow">VOTRE PARTENAIRE NUMÉRIQUE</p>
+
+                    <h1>
+                        Donnons vie à vos
+                        <span>ambitions numériques.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Nous accompagnons les entreprises dans la création
+                        de solutions informatiques modernes, fiables et
+                        adaptées à leurs besoins.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#services" class="button button-primary">
+                            Découvrir nos services
+                        </a>
+
+                        <a href="#contact" class="button button-secondary">
+                            Nous contacter
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual" aria-hidden="true">
+                    <div class="visual-card">
+                        <div class="visual-top">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="visual-content">
+                            <div class="visual-icon">&lt;/&gt;</div>
+                            <h2>Innovation numérique</h2>
+                            <p>Des idées transformées en solutions.</p>
+
+                            <div class="progress-line">
+                                <span></span>
+                            </div>
+
+                            <div class="visual-labels">
+                                <span>Créativité</span>
+                                <span>100 %</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- À propos -->
+        <section class="section about" id="apropos">
+            <div class="container about-grid">
+
+                <div>
+                    <p class="eyebrow">QUI SOMMES-NOUS ?</p>
+
+                    <h2 class="section-title">
+                        La technologie au service de vos projets.
+                    </h2>
+                </div>
+
+                <div class="about-text">
+                    <p>
+                        NovaTech est une entreprise fictive de services
+                        informatiques qui place les besoins de ses clients
+                        au centre de ses priorités.
+                    </p>
+
+                    <p>
+                        Notre ambition est de rendre la technologie plus
+                        accessible grâce à des solutions utiles, simples
+                        à utiliser et pensées pour durer.
+                    </p>
+
+                    <a href="#contact" class="text-link">
+                        Parlons de votre projet →
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="section services" id="services">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">CE QUE NOUS FAISONS</p>
+
+                    <h2 class="section-title">
+                        Des solutions adaptées à vos besoins.
+                    </h2>
+
+                    <p>
+                        Découvrez les domaines dans lesquels nous pouvons
+                        vous accompagner.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+
+                    <article class="service-card">
+                        <div class="service-icon">&lt;/&gt;</div>
+
+                        <h3>Développement web</h3>
+
+                        <p>
+                            Création de sites web modernes, responsives
+                            et adaptés à votre activité.
+                        </p>
+
+                        <a href="#contact">En savoir plus →</a>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">⌘</div>
+
+                        <h3>Solutions informatiques</h3>
+
+                        <p>
+                            Accompagnement dans vos projets numériques
+                            et optimisation de vos outils informatiques.
+                        </p>
+
+                        <a href="#contact">En savoir plus →</a>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">◈</div>
+
+                        <h3>Réseaux et cybersécurité</h3>
+
+                        <p>
+                            Sensibilisation à la sécurité informatique,
+                            protection des systèmes et bonnes pratiques.
+                        </p>
+
+                        <a href="#contact">En savoir plus →</a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Appel à l'action -->
+        <section class="cta">
+            <div class="container cta-content">
+                <div>
+                    <p class="eyebrow">UN PROJET EN TÊTE ?</p>
+
+                    <h2>Construisons ensemble votre prochaine idée.</h2>
+
+                    <p>
+                        Discutons de vos besoins et explorons les solutions
+                        possibles.
+                    </p>
+                </div>
+
+                <a href="#contact" class="button button-light">
+                    Démarrer une discussion
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section contact" id="contact">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">CONTACT</p>
+
+                    <h2 class="section-title">
+                        Parlons de votre projet.
+                    </h2>
+
+                    <p>
+                        Présentez-nous votre besoin à l'aide du formulaire.
+                    </p>
+                </div>
+
+                <form class="contact-form" id="contact-form">
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nom">Nom</label>
+
+                            <input
+                                type="text"
+                                id="nom"
+                                name="nom"
+                                placeholder="Votre nom"
+                                autocomplete="name"
+                                required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Adresse e-mail</label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="vous@exemple.com"
+                                autocomplete="email"
+                                required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="sujet">Sujet</label>
+
+                        <input
+                            type="text"
+                            id="sujet"
+                            name="sujet"
+                            placeholder="Objet de votre demande"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Votre message</label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="Décrivez votre projet..."
+                            required></textarea>
+                    </div>
+
+                    <button type="submit" class="button button-primary">
+                        Préparer mon message
+                    </button>
+
+                    <p class="form-note" id="form-note" role="status">
+                        Ce formulaire prépare un message dans votre
+                        application de messagerie. Il ne transmet pas
+                        directement vos données à un serveur.
+                    </p>
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Pied de page -->
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <a href="#accueil" class="logo">
+                Nova<span>Tech</span>
+            </a>
+
+            <p>
+                © <span id="year"></span> NovaTech.
+                Tous droits réservés.
+            </p>
+
+            <a href="#accueil" class="back-to-top">
+                Retour en haut ↑
+            </a>
+
+        </div>
+    </footer>
+
+</body>
+</html>
+```
